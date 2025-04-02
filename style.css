@@ -29,27 +29,34 @@ body{
 p{
   margin-top: 0;
   color: var(--neutral-grey);
-  line-height: 1.75em;
+  line-height: 23px;
+  font-size: 12px;
+  margin-bottom: 30px;
 }
 
 p.product-tag{
   margin-top: 0;
   text-transform: uppercase;
   letter-spacing: 5px;
+  line-height: 15px;
 }
 
 p.previous-price{
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 10px;
+  margin-left: 19px;
   text-decoration: line-through;
+  letter-spacing: -0.45px;
 }
 
 h1{
   margin-top: 0;
   font-family:"Fraunces";
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
+  line-height: 1em;
+  margin-bottom: 23px;
+  letter-spacing: -.25px;
 }
 
 h1.actuall-price{
@@ -61,7 +68,7 @@ h1.actuall-price{
 .product-card{
   display: flex;
   background-color: var(--neutral-white);
-  width: 650px;
+  width: 600px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -73,7 +80,7 @@ figure{
 
 .product-info{
   width: 50%;
-  padding: 40px;
+  padding: 32px;
 }
 
 .picture{
@@ -87,7 +94,7 @@ figure{
 .price{
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 29px;
 }
 
 a{
@@ -95,8 +102,8 @@ a{
  align-items: center;
  justify-content: center;
  background-color: var(--primary-green-500);
- border-radius: 10px;
- height: 50px;
+ border-radius: 8px;
+ height: 48px;
 }
 
 svg.action-icon{
@@ -107,6 +114,7 @@ p.action-text{
    color: var(--neutral-white);
    margin-bottom: 0;
    margin-left: 10px;
+   letter-spacing: 0.3px;
 }
 
 a:hover{
